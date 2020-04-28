@@ -13,7 +13,7 @@ jobs:
           browser: chrome
           command: 'yarn run cy:run:ci'
 #          working-directory: cypress/integration
-#          record: true
-#        env:
-#          # pass the Dashboard record key as an environment variable
-#          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          record: true
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
