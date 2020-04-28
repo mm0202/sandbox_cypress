@@ -11,9 +11,8 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           browser: chrome
-          command: 'yarn run cy:run:ci --record --key ${{ CYPRESS_RECORD_KEY }}'
 #          working-directory: cypress/integration
-#          record: true
+          record: true
         env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}

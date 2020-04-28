@@ -1,3 +1,4 @@
 {
-  "projectId": "ogtv7f"
+  "projectId": "ogtv7f",
+  "ignoreTestFiles": ["**/cypress/integration/examples/*.spec.js"]
 }

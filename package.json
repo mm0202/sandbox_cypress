@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run:ci": "cypress run --spec 'cypress/integration/sample.spec.js'"
+    "cy:run": "cypress run"
   },
   "devDependencies": {
     "cypress": "^4.4.1"
