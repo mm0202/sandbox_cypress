@@ -4,7 +4,8 @@
   "repository": "https://github.com/mm0202/sandbox_cypress",
   "license": "MIT",
   "scripts": {
-    "cypress/open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "devDependencies": {
     "cypress": "^4.4.1"
